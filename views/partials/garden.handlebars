@@ -1,0 +1,194 @@
+<!-- Nav Bar-->
+
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<nav class="teal lighten-2" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="/" class="brand-logo white-text">PlantParenthood</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="./garden">Virtual Gardens</a></li>
+      <li><a href="./search">Search for a Plant</a></li>
+      <li><a href="./signup">Sign Up</a></li>
+      <li><a href="./login">Login</a></li>
+    </ul>
+
+    <ul id="nav-mobile" class="sidenav nav-side">
+      <li><a href="./garden">Virtual Gardens</a></li>
+      <li><a href="./search">Search for a Plant</a></li>
+      <li><a href="./signup">Sign Up</a></li>
+      <li><a href="./login">Login</a></li>
+    </ul>
+
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
+<!-- 5 cards for each garden on the gardens page-->
+
+<!-- Put all of the cards in flexbox and standardize the size of the cards.-->
+
+<body class="gardens-page">
+
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="/images/gardens/herb.png">
+          <span class="card-title">Herb Garden</span>
+        </div>
+
+        <p>Indoor gardening with herbs is easy, making it perfect for beginners. Herbs are typically small, providing
+          flexibility and plenty of design choices.</p>
+
+        <button onclick="showHerb()">VIEW PLANTS</button>
+
+        <div id="herb" class="herb">
+          <p>Basil</p>
+          <p>Thyme</p>
+          <p>Rosemary</p>
+          <p>Mint</p>
+          <p>Parsley</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="/images/gardens/succulent.jpg">
+          <span class="card-title">Succulent Garden</span>
+        </div>
+        <p>Succulent gardens require limited maintenance and offer a variety of options for garden design. With minimal
+          care, these plants are able to thrive even in the winters .</p>
+        <button onclick="showSucc()">VIEW PLANTS</button>
+
+        <div id="succulent" class="herb">
+          <p>Panda Plant</p>
+          <p>Crown of Thorns</p>
+          <p>Roseum</p>
+          <p>Burro's Tail</p>
+          <p>Flaming Katy</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="/images/gardens/summer.jpg">
+          <span class="card-title">Summer Garden</span>
+        </div>
+        <p>Summer is a great time to start a plant collection. This season provides the right amount of sun exposure and
+          ideal temperatures for various plants to grow.</p>
+        <button onclick="showSummer()">VIEW PLANTS</button>
+
+        <div id="summer" class="herb">
+          <p>Begonias</p>
+          <p>Lantana</p>
+          <p>Mandevilla</p>
+          <p>Pentas</p>
+          <p>Scaevola</p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://www.plantedwell.com/wp-content/uploads/2018/06/indoor-gardening-ideas-store.jpg">
+          <span class="card-title">Fall Garden</span>
+        </div>
+        <p>Fall adds a touch of color to every plant lover's life. The conditions are still right to grow quite a few
+          plants, so be sure to take advantage of this season.</p>
+
+        <button onclick="showFall()">VIEW PLANTS</button>
+
+        <div id="fall" class="herb">
+          <p>Aster</p>
+          <p>Japanese Maple</p>
+          <p>Black-eyed Susan</p>
+          <p>Verbena</p>
+          <p>Croton</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/gardens/winter.jpg">
+          <span class="card-title">Winter Garden</span>
+        </div>
+        <p> Winter does not necessarily mean the end of gardening activities. Some plants actually thrive in colder
+          climates. Make the most of the cold weather to explore unique plants</p>
+
+        <button onclick="showPlants()">VIEW PLANTS</button>
+        </br>
+        <div id="plants" class="herb">
+          <p>Winter Jasmine</p>
+          <p>Primrose</p>
+          <p>Winter Honeysuckle</p>
+          <p>Calluna</p>
+          <p>Lily of the Valley</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://www.plantedwell.com/wp-content/uploads/2018/06/ikea-indoor-container-gardening.jpg">
+          <span class="card-title">Spring Garden</span>
+        </div>
+        <p>Spring is the season of growth. Make sure to liven up your table tops with some spring flowers! </p>
+        <button onclick="showSpring()">VIEW PLANTS</button>
+        <div id="spring" class="herb">
+          <p>Daffodils</p>
+          <p>Tulips</p>
+          <p>Star Magnolia</p>
+          <p>Flowering Currant</p>
+          <p>Gingko Craig Hosta</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</body>
+
+
+<footer class="page-footer teal">
+
+  <div class="footer-copyright">
+    <div class="container">
+      <a class="brown-text text-lighten-3" href="./index">Plant Parenthood</a>
+    </div>
+  </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./materializeJS/materialize.js"></script>
+<script src="./materializeJS/init.js"></script>
+<script src="/js/gardens.js"></script>
