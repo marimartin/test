@@ -17,11 +17,11 @@ module.exports = function (app) {
   });
 
   app.get("/search", (req, res) => {
-    res.render(path.join(__dirname, "../views/partials/search"));
+    res.render(path.join(__dirname, "../views/search"));
   });
 
   app.get("/results", (req, res) => {
-    res.render(path.join(__dirname, "../views/partials/results"));
+    res.render(path.join(__dirname, "../views/results"));
   });
 
   app.get("/login", (req, res) => {
@@ -31,12 +31,12 @@ module.exports = function (app) {
     res.render(path.join(__dirname, "../views/login"));
   });
 
-// gardens route
+  // gardens route
   app.get("/garden", (req, res) => {
     res.render(path.join(__dirname, "../views/partials/garden"));
-   });
+  });
 
   app.get("/profile", isAuthenticated, (req, res) => {
     res.render(path.join(__dirname, "../views/profile"));
-    });
+  });
 };

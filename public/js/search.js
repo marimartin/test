@@ -16,9 +16,7 @@ $(document).ready(function () {
             url: url
         }).then(function (response) {
             console.log(response);
-            // for (i = 0; i < plants.length; i++) {
-            //     loop through response to render to results page
-            // }
+            // window.location = "/";
         });
     });
 });
